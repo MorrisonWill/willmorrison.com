@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ frontmatter.title }}{% endblock %}
+
+{% block content %}
+<article class="post">
+  <header class="post-header">
+    <h1>{{ frontmatter.title }}</h1>
+    <time datetime="{{ frontmatter.date }}">{{ frontmatter.date }}</time>
+    {% if frontmatter.tags %}
+    <div class="tags">
+      {% for tag in frontmatter.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+
+</article>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+<div class="blog-list">
+  <h1>Blog</h1>
+  
+  {% for post in posts %}
+  <article class="blog-post-preview">
+    <h2><a href="/blog/{{ post.slug }}">{{ post.frontmatter.title }}</a></h2>
+    <time datetime="{{ post.frontmatter.date }}">{{ post.frontmatter.date }}</time>
+    {% if post.frontmatter.tags %}
+    <div class="tags">
+      {% for tag in post.frontmatter.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}
