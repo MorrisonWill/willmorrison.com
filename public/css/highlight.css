@@ -6,13 +6,13 @@
   Website: https://highlightjs.org/
   License: see project LICENSE
   Touched: 2021
-*/ pre code.hljs {
+*/ code.hljs {
+	padding: 3px 5px;
+}
+pre code.hljs {
 	display: block;
 	overflow-x: auto;
 	padding: 1em;
-}
-code.hljs {
-	padding: 3px 5px;
 }
 .hljs {
 	background: #f3f3f3;
@@ -25,10 +25,6 @@ code.hljs {
 .hljs-tag {
 	color: #444a;
 }
-.hljs-tag .hljs-attr,
-.hljs-tag .hljs-name {
-	color: #444;
-}
 .hljs-attribute,
 .hljs-doctag,
 .hljs-keyword,
@@ -36,6 +32,10 @@ code.hljs {
 .hljs-name,
 .hljs-selector-tag {
 	font-weight: 700;
+}
+.hljs-tag .hljs-attr,
+.hljs-tag .hljs-name {
+	color: #444;
 }
 .hljs-deletion,
 .hljs-number,
