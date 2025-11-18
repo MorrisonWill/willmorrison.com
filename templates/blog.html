@@ -4,8 +4,6 @@
 
 {% block content %}
 <div class="blog-list">
-  <h1>Blog</h1>
-  
   {% for post in posts %}
   <article class="blog-post-preview">
     <h2><a href="/blog/{{ post.slug }}">{{ post.frontmatter.title }}</a></h2>

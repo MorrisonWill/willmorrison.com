@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 
-{% block title %}{{ title }}{% endblock %}
+{% block title %}{{ frontmatter.title or "Will Morrison" }}{% endblock %}
 
 {% block content %}
 <div class="page-content">
