@@ -26,14 +26,6 @@ async function content(
 	slug: string,
 	template: string,
 ) {
-	// Send the pre-built HTML file in production
-	if (isProduction) {
-		const file = Bun.file(`./dist/content/${type}/${slug}.html`);
-		return htmlResponse(await file.text());
-	}
-
-	// In development, compile the markdown on demand
-
 	const markdown = await Bun.file(`./content/${type}/${slug}.md`).text();
 	const { frontmatter, content: markdownContent } = parseFrontmatter(markdown);
 

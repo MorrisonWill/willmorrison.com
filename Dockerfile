@@ -4,8 +4,6 @@ COPY . .
 
 RUN bun install
 
-RUN bun run build.ts
- 
 ARG PORT
 EXPOSE ${PORT:-3000}
  

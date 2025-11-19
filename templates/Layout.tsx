@@ -1,0 +1,47 @@
+
+type LayoutProps = {
+	title?: string;
+	children?: any;
+};
+
+export function Layout({ title = "Will Morrison", children }: LayoutProps) {
+	return (
+		<html lang="en">
+			<head>
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>{title}</title>
+				<link rel="stylesheet" href="/public/css/style.css" />
+				<link rel="stylesheet" href="/public/css/highlight.css" />
+			</head>
+			<body>
+				<header>
+					<nav>
+						<a href="/" className="logo">
+							Will Morrison
+						</a>
+						<ul>
+							<li>
+								<a href="/blog">Blog</a>
+							</li>
+							<li>
+								<a
+									href="https://github.com/morrisonwill"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									GitHub
+								</a>
+							</li>
+							<li>
+								<a href="mailto:will@willmorrison.com">Email</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<main>{children}</main>
+			</body>
+		</html>
+	);
+}
