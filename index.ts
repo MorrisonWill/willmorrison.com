@@ -17,6 +17,9 @@ marked.use(
 
 const isProduction = Bun.env.NODE_ENV === "production";
 
+const styleCSS = await Bun.file("./public/css/style.css").text();
+const highlightCSS = await Bun.file("./public/css/highlight.css").text();
+
 nunjucks.configure("templates", {
 	noCache: !isProduction,
 });
@@ -41,6 +44,8 @@ async function content(
 		nunjucks.render(template, {
 			content: marked(markdownContent || ""),
 			frontmatter,
+			styleCSS,
+			highlightCSS,
 		}),
 	);
 }
@@ -81,6 +86,11 @@ async function blogList(): Promise<Response> {
 	return htmlResponse(
 		nunjucks.render("blog.html", {
 			posts,
+			frontmatter: {
+				description: "Blog posts by Will Morrison - Full-stack web developer",
+			},
+			styleCSS,
+			highlightCSS,
 		}),
 	);
 }

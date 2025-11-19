@@ -2,6 +2,7 @@
 title: UNFINISHED
 date: 2025-11-16
 tags: [web, typescript, bun]
+description: A postmortem on a DNS propagation issue during infrastructure migration that led to database divergence and data loss.
 ---
 
 ### Always consider DNS in infrastructure changes
