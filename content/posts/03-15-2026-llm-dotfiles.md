@@ -8,7 +8,7 @@ I've tinkered with Linux distributions for years: Ubuntu, Debian, Solus, NixOS, 
 
 My first step was to install my terminal emulator of choice (foot) and then immediately install Claude Code. Every piece of configuration on the machine I'm typing this on was done through Claude Code.
 
-Usually when I set up a laptop I compromise out of laziness. Some notification quirk bothers me and I leave it. I hear about a better tool but stick with what I know because switching means an hour of reading docs and configuring. This time I didn't have to make those tradeoffs. I had claude research online to find the best tools for what I do and configure them exactly as I specified.
+Usually when I set up a laptop I compromise out of laziness. Some notification quirk bothers me and I leave it. I hear about a better tool but stick with what I know because switching means an hour of reading docs and configuring. This time I didn't have to make those tradeoffs. I had Claude research online to find the best tools for what I do and configure them exactly as I specified.
 
 Once I was happy with the setup, I had Claude write a `CLAUDE.md` in my home directory containing a description of my system, my preferences, what's installed, and how everything fits together. Now whenever I run into something odd or want to refine my setup, I boot up Claude Code and it has the full context of my machine. The system keeps getting better unlike most machines I've maintained before.
 
