@@ -115,6 +115,10 @@ const server = Bun.serve({
 			// Strip /assets prefix to map to public directory
 			return new Response(Bun.file(pathName));
 		},
+
+		"/.well_known/atproto-did": (req) => {
+			return new Response("did:plc:2ii2drwgooqm4u7n47kkeyof");
+		}
 	},
 });
 
