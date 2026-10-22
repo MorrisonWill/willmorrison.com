@@ -1,20 +1,19 @@
-<details>
-  <summary>Introduction</summary>
+---
+title: Japanese | Will Morrison
+description: Notes on learning Japanese, including study progress, resources, and reflections.
+---
 
+# Japanese
 
-<p>I started learning Japanese on 09/16/24 during the start of my senior year at Boston College. A friend of mine was working remotely in Japan at the time and reading about his experiences and the Japanese culture motivated me to learn.</p>
+Notes on learning Japanese. Started September 2024, quit January 2025, and resumed August 2026.
 
-<p>Before studying Japanese, I had spent a few years learning Spanish in middle and high school and took two years of Latin in college. Language learning has always been fun to me, but I never became interested enough in Spanish culture or classics to willingly spend time on those languages beyond what was required for my classes.</p>
+## Returning to Japanese
 
-<p>On this page, I will make an entry every week detailing what I accomplished and any additional thoughts I've had about the language, the learning process, and my progress. My hope is that this will help when motivation wanes since I will be able to see how much I've improved and in what timeframe.</p>
-
-</details>
-
-## First 53 days after returning to Japanese study (08/31/2026 - 10/22/2026)
+<p class="entry-meta">53 days: Aug 31-Oct 22, 2026</p>
 
 Coming back to Japanese after close to two years, I contemplated my resource options carefully. I learned from last time that doing too many things leads to burnout. I believe I got so excited with Japanese that I did too much and burned out without laying the groundwork for consistent, burnout-resistent study.
 
-I chose to use the [JLAB](https://ankiweb.net/shared/info/911122782) listening course along with [Tae Kim's Guide](https://guidetojapanese.org/learn/) as my primary resources. After 53 days I have done 2,990 reviews in the Anki deck, or around 56 per day. I have 635 cards either mature or learning.
+I chose to use the [JLAB](https://ankiweb.net/shared/info/911122782) beginner course along with [Tae Kim's Guide](https://guidetojapanese.org/learn/) as my primary resources. After 53 days I have done 2,990 reviews in the Anki deck, or around 56 per day. I have 635 cards either mature or learning.
 
 Initially, I decided to go through RTK as well, but I dropped it. I believe I don't have enough issues recogniing kanji to warrant the time it takes to go through. My reviews were quite slow and painful.
 
@@ -24,33 +23,32 @@ Progress feels smooth. I'm enjoying the audio cards.
 
 My goal is to get through JLAB's entire beginner course (listening comprehension and reading practice anki decks), and then begin mining while working on his intermediate courses.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 
 <details>
-    <summary>Old Log</summary>
+    <summary>2024–25 learning log</summary>
 
-<p>I kept a learning log during my last period of Japanese learning. I'm dumping it here.</p>
+Notes from my first period of Japanese study.
 
-<p>
 
 ## Week 17: 01/06/25 - 01/13/25
 
 Just barely kept up with flashcard reviews. Low motivation with travel and start of the semester.
 
-### Motivation Level: Low
+<p class="entry-meta">Motivation: low</p>
 
 ## Week 16: 12/30/24 - 01/06/25
 
 Just barely kept up with flashcard reviews. Low motivation with travel and start of the semester.
 
-### Motivation Level: Low
+<p class="entry-meta">Motivation: low</p>
 
 ## Week 15: 12/23/24 - 12/30/24
 
 Just barely kept up with flashcard reviews. Low motivation with travel and start of the semester.
 
-### Motivation Level: Low
+<p class="entry-meta">Motivation: low</p>
 
 ## Week 14: 12/16/24 - 12/23/24
 
@@ -59,7 +57,7 @@ Slow learning continues. Motivation is definitely the lowest it has ever been, b
 - 1020 cards finished in Migaku's course
   - Small amounts of immersion
 
-### Motivation Level: Low
+<p class="entry-meta">Motivation: low</p>
 
 ## Week 13: 12/09/24 - 12/16/24
 
@@ -68,7 +66,7 @@ Very slow because of finals and travel. No new cards.
 - 992 cards finished in Migaku's course
   - Nothing important to note for immersion
 
-### Motivation Level: Medium
+<p class="entry-meta">Motivation: medium</p>
 
 ## Week 12: 12/02/24 - 12/09/24
 
@@ -76,7 +74,7 @@ Very slow because of finals and travel. No new cards.
   - Listening practice with two Anki decks, ~10 new cards per day total
   - Lots of Japanese with Shun vlogs and podcasts as well as some other miscellaneous immersion
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 11: 11/25/24 - 12/02/24
 
@@ -86,7 +84,7 @@ Slow week because of Thanksgiving.
   - More listening practice Anki flashcards
   - Yomu Yomu reading, CIJ videos, and podcasts
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 10: 11/18/24 - 11/25/24
 
@@ -98,7 +96,7 @@ Slow week because of a work trip to Phoenix.
 
 The most exciting part of this weak was my discovery of how powerful Whisper subtitle generation is. I downloaded the first few Japanese with Shun podcasts and generated transcripts for them. I've been listening and reading through them and I'm happy with my comprehension. This seems like one of if not the most efficient way to learn: alternating between listening to and reading a podcast until you have a complete understanding of it.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 9: 11/11/24 - 11/18/24
 
@@ -107,7 +105,7 @@ The most exciting part of this weak was my discovery of how powerful Whisper sub
 
 I did lots of reading on Yomu Yomu this week. My comprehension of the Beginner 2 stories I read is quite good and I know over 90% of the words. I can feel the benefit of this extensive reading already and I'm having more fun with it than with watching content I don't understand well. I find myself forming some Japanese sentences in my head throughout the day which wasn't happening before.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 8: 11/04/24 - 11/11/24
 
@@ -119,7 +117,7 @@ Motivation has gone down a bit. I decided to not learn any new cards for the las
 
 Motivation still relatively high since I've been keeping up with reviews and some immersion, but it has definitely dropped.
 
-### Motivation Level: Medium
+<p class="entry-meta">Motivation: medium</p>
 
 ## Week 7: 10/28/24 - 11/04/24
 
@@ -133,7 +131,7 @@ Biggest news this week is my discovery of Comprehensible Japanese and their webs
 
 I'm going to aim for one hour of CIJ per day, making this my primary form of immersion.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 6: 10/21/24 - 10/28/24
 
@@ -145,7 +143,7 @@ I'm going to aim for one hour of CIJ per day, making this my primary form of imm
 
 This week I realized that I was no longer obsessing over grammar in the sentence cards I'm going through. In the past, when I was confused about a grammar concept used in a sentence, I would dig into it by asking friends or using ChatGPT. Now, I think I realize that it doesn't matter much since the only way to fully understand the grammar is to immerse anyway. This has allowed me to go through reviews faster.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 5: 10/14/24 - 10/21/24
 
@@ -156,7 +154,7 @@ This week I realized that I was no longer obsessing over grammar in the sentence
   - Starting work on a Japanese learning platform
   - Motivation is high but I'm putting time into development of the platform which takes some time away from actual language learning, so I'm saying my motivation was medium for this week.
 
-### Motivation Level: Medium
+<p class="entry-meta">Motivation: medium</p>
 
 ## Week 4: 10/07/24 - 10/14/24
 
@@ -168,7 +166,7 @@ The most important part of this week is that I have phased out Anki and am just 
 
 The plan is to continue with Migaku's academy course and increase immersion once I feel I have a good base of vocab and grammar. I'm not sure if 20 cards/day will be sustainable. If it becomes too much I'll drop it to 15 or 10.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 3: 09/30/24 - 10/07/24
 
@@ -183,7 +181,7 @@ The most important part of this week has been my usage of [Migaku](https://migak
 
 I made a new YouTube account for Japanese and have been enjoying the channel Comprehensible Japanese.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 2: 09/25/24 - 09/30/24
 
@@ -198,7 +196,7 @@ I'm very happy that I was able to get through the easiest article in Satori Read
 
 Because of how well the reading went I'm planning to do more of that in future weeks. My focus will be on vocabulary, grammar, and reading with some additional listening to train my ears a bit. I'm going to try starting よつばと to see how that feels compared to Satori Reader.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 ## Week 1: 09/14/24 - 09/25/24
 
@@ -224,16 +222,19 @@ For immersion, I haven't found a reading resource that is enjoyable and benefici
 
 I'm trying to get to the point of being able to consume enjoyable native content as quickly as possible. I know that my motivation will dip in the future, but I think if I can push through to that point then I will continue for a long time.
 
-### Motivation Level: High
+<p class="entry-meta">Motivation: high</p>
 
 
-```
-Log format:
-## Week [Number]: [Date Range]
+</details>
 
-Details
+<details>
+  <summary>Background</summary>
 
-### Motivation Level: [Low/Medium/High]
-```
-</p>
+
+<p>I started learning Japanese on 09/16/24 during the start of my senior year at Boston College. A friend of mine was working remotely in Japan at the time and reading about his experiences and the Japanese culture motivated me to learn.</p>
+
+<p>Before studying Japanese, I had spent a few years learning Spanish in middle and high school and took two years of Latin in college. Language learning has always been fun to me, but I never became interested enough in Spanish culture or classics to willingly spend time on those languages beyond what was required for my classes.</p>
+
+<p>On this page, I will make an entry every week detailing what I accomplished and any additional thoughts I've had about the language, the learning process, and my progress. My hope is that this will help when motivation wanes since I will be able to see how much I've improved and in what timeframe.</p>
+
 </details>

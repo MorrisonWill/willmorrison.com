@@ -63,6 +63,49 @@ main {
 	line-height: 1.8;
 }
 
+.page-content h1 {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.page-content h2 {
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.page-content p,
+.page-content ul,
+.page-content ol {
+	margin-bottom: 1rem;
+}
+
+.page-content ul,
+.page-content ol {
+	margin-left: 1.5rem;
+}
+
+.page-content li {
+	margin-bottom: 0.5rem;
+}
+
+.page-content .entry-meta {
+	color: #666;
+	font-size: 0.9rem;
+}
+
+.page-content details {
+	margin-top: 1.5rem;
+}
+
+.page-content summary {
+	cursor: pointer;
+}
+
+.page-content details[open] > summary {
+	margin-bottom: 1rem;
+}
+
 .blog-list h1 {
 	margin-bottom: 2rem;
 	font-size: 2rem;
