@@ -95,6 +95,10 @@ async function blogList(): Promise<Response> {
 	);
 }
 
+async function japanese(): Promise<Response> {
+	return content("pages", "japanese", "page.html");
+}
+
 const server = Bun.serve({
 	routes: {
 		"/": async () => {
@@ -103,6 +107,10 @@ const server = Bun.serve({
 
 		"/blog": async () => {
 			return await blogList();
+		},
+
+		"/japanese": async () => {
+			return await japanese();
 		},
 
 		"/blog/:slug": async (req) => {
@@ -116,7 +124,7 @@ const server = Bun.serve({
 			return new Response(Bun.file(pathName));
 		},
 
-		"/.well_known/atproto-did": (req) => {
+		"/.well_known/atproto-did": (_) => {
 			return new Response("did:plc:2ii2drwgooqm4u7n47kkeyof");
 		}
 	},
