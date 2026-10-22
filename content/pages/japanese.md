@@ -3,8 +3,6 @@ title: Japanese | Will Morrison
 description: Notes on learning Japanese, including study progress, resources, and reflections.
 ---
 
-# Japanese
-
 Notes on learning Japanese. Started September 2024, quit January 2025, and resumed August 2026.
 
 ## Returning to Japanese
