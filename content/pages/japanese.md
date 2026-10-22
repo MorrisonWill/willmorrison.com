@@ -11,17 +11,21 @@ Notes on learning Japanese. Started September 2024, quit January 2025, and resum
 
 <p class="entry-meta">53 days: Aug 31-Oct 22, 2026</p>
 
-Coming back to Japanese after close to two years, I contemplated my resource options carefully. I learned from last time that doing too many things leads to burnout. I believe I got so excited with Japanese that I did too much and burned out without laying the groundwork for consistent, burnout-resistent study.
+Coming back to Japanese after close to two years, I contemplated my resource options carefully. I learned from last time that trying to do much leads to burnout.
 
-I chose to use the [JLAB](https://ankiweb.net/shared/info/911122782) beginner course along with [Tae Kim's Guide](https://guidetojapanese.org/learn/) as my primary resources. After 53 days I have done 2,990 reviews in the Anki deck, or around 56 per day. I have 635 cards either mature or learning.
+I chose to use the [JLAB](https://ankiweb.net/shared/info/911122782) beginner course along with [Tae Kim's Guide](https://guidetojapanese.org/learn/) as my primary resources. 
 
-Initially, I decided to go through RTK as well, but I dropped it. I believe I don't have enough issues recogniing kanji to warrant the time it takes to go through. My reviews were quite slow and painful.
+Initially, I decided to go through RTK as well, but I dropped it. I believe I don't have enough trouble recogniing kanji to warrant spending time on RTK. My reviews were quite slow and painful.
 
-I've done some immersion with YouTube videos and podcasts. Some creators I've learned from include OkkeiJapanese, けんさん, いろいろな日本語, and Japanese with Shun.
+After 53 days I have done 2,990 reviews in the Anki deck, or around 56 per day. I have 635 cards either mature or learning, averaging 12 new cards per day.
 
-Progress feels smooth. I'm enjoying the audio cards.
+I've done some immersion with YouTube videos and podcasts. Some creators I've enjoyed include OkkeiJapanese, けんさん, いろいろな日本語, and Japanese with Shun.
 
-My goal is to get through JLAB's entire beginner course (listening comprehension and reading practice anki decks), and then begin mining while working on his intermediate courses.
+Progress feels smooth. I'm enjoying the audio cards. I feel the same excitement I felt when I was last obsessed with Japanese.
+
+I hope to develop a durable study habit with JLAB's decks, use Tae Kim's Guide for thorough grammar explanations, and immerse when I feel motivated to.
+
+A short-term goal is to get comfortable enough with the language to meet with a tutor from italki. I've met with a teacher when studying chess in the past and I felt like it greatly accelerated my knowledge and motivation; I'd like to repeat that experience with Japanese. I'm sure I could meet with a tutor tomorrow and benefit from it, but I'd like to have more vocabulary and grammar knowledge and a small amount of output experience first.
 
 <p class="entry-meta">Motivation: high</p>
 
