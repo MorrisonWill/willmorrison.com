@@ -5,9 +5,17 @@ description: Notes on learning Japanese, including study progress, resources, an
 
 Notes on learning Japanese. Started September 2024, quit January 2025, and resumed August 2026.
 
-## Returning to Japanese
+<p class="entry-meta">11 days: Oct 22-Nov 2, 2026</p>
 
-<p class="entry-meta">53 days: Aug 31-Oct 22, 2026</p>
+174 new cards in the JLAB deck. 874 total, averaging around 15 new cards per day. Some immersion with YouTube, podcasts, and いろいろな日本語. I've enjoyed doing flashcards while screensharing in discord with a friend who's also learning with the same JLAB deck.
+
+Motivation is consistent. I don't feel anything waning. There are times where I want to put more time into learning, but I don't want to burn out like last time, so I settle for watching a video about someone else's experience learning Japanese. I should probably avoid doing this since, but I like it too much
+
+I'm going to find a tutor on iTalki soon.
+
+<p class="entry-meta">Motivation: high</p>
+
+<p class="entry-meta">11 days: Oct 22-Nov 2, 2026</p>
 
 Coming back to Japanese after close to two years, I contemplated my resource options carefully. I learned from last time that trying to do much leads to burnout.
 
