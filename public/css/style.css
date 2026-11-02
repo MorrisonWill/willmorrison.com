@@ -94,6 +94,14 @@ main {
 	font-size: 0.9rem;
 }
 
+.page-content .entry-date {
+	margin-top: 2.5rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid #e0e0e0;
+	color: #333;
+	font-weight: 600;
+}
+
 .page-content details {
 	margin-top: 1.5rem;
 }
