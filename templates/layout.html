@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}{{ title }}{% endblock %}</title>
+  {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
   {% if frontmatter and frontmatter.description %}<meta name="description" content="{{ frontmatter.description }}">{% endif %}
   <style>{{ styleCSS | safe }}</style>
   <style>{{ highlightCSS | safe }}</style>

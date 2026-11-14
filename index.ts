@@ -16,6 +16,7 @@ marked.use(
 );
 
 const isProduction = Bun.env.NODE_ENV === "production";
+const siteURL = "https://www.willmorrison.com";
 
 async function loadStyles() {
 	const [styleCSS, highlightCSS] = await Promise.all([
@@ -39,6 +40,7 @@ async function content(
 	type: "posts" | "pages",
 	slug: string,
 	template: string,
+	path: string,
 ) {
 	const markdown = await Bun.file(`./content/${type}/${slug}.md`).text();
 	const { frontmatter, content: markdownContent } = parseFrontmatter(markdown);
@@ -55,20 +57,21 @@ async function content(
 		nunjucks.render(template, {
 			content: marked(markdownContent || ""),
 			frontmatter,
+			canonical: siteURL + path,
 			...await styles(),
 		}),
 	);
 }
 
 async function post(slug: string): Promise<Response> {
-	return content("posts", slug, "post.html");
+	return content("posts", slug, "post.html", `/blog/${slug}`);
 }
 
-async function page(slug: string): Promise<Response> {
-	return content("pages", slug, "page.html");
+async function page(slug: string, path: string): Promise<Response> {
+	return content("pages", slug, "page.html", path);
 }
 
-async function blogList(): Promise<Response> {
+async function listPosts() {
 	const glob = new Glob("content/posts/*.md");
 	const posts = [];
 
@@ -93,9 +96,16 @@ async function blogList(): Promise<Response> {
 		return dateB - dateA;
 	});
 
+	return posts;
+}
+
+async function blogList(): Promise<Response> {
+	const posts = await listPosts();
+
 	return htmlResponse(
 		nunjucks.render("blog.html", {
 			posts,
+			canonical: `${siteURL}/blog`,
 			frontmatter: {
 				description: "Blog posts by Will Morrison - Full-stack web developer",
 			},
@@ -105,13 +115,41 @@ async function blogList(): Promise<Response> {
 }
 
 async function japanese(): Promise<Response> {
-	return content("pages", "japanese", "page.html");
+	return page("japanese", "/japanese");
+}
+
+async function sitemap(): Promise<Response> {
+	const paths = ["/", "/japanese", "/blog"];
+	for (const post of await listPosts()) {
+		paths.push(`/blog/${post.slug}`);
+	}
+
+	const urls = paths
+		.map((path) => `  <url><loc>${siteURL}${path}</loc></url>`)
+		.join("\n");
+
+	return new Response(
+		`<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
+</urlset>
+`,
+		{ headers: { "Content-Type": "application/xml" } },
+	);
+}
+
+function robots(): Response {
+	return new Response(`User-agent: *
+Allow: /
+
+Sitemap: ${siteURL}/sitemap.xml
+`);
 }
 
 const server = Bun.serve({
 	routes: {
 		"/": async () => {
-			return await page("index");
+			return await page("index", "/");
 		},
 
 		"/blog": async () => {
@@ -120,6 +158,14 @@ const server = Bun.serve({
 
 		"/japanese": async () => {
 			return await japanese();
+		},
+
+		"/robots.txt": () => {
+			return robots();
+		},
+
+		"/sitemap.xml": async () => {
+			return await sitemap();
 		},
 
 		"/blog/:slug": async (req) => {
