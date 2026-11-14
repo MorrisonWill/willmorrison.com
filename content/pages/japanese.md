@@ -13,6 +13,8 @@ Motivation is consistent. I don't feel anything waning. There are times where I 
 
 I'm going to find a tutor on iTalki soon.
 
+Starting work on a [Japanese learning platform](https://etoku.app).
+
 <p class="entry-meta">Motivation: high</p>
 
 <p class="entry-meta entry-date">53 days: Aug 31-Oct 22, 2026</p>
@@ -161,7 +163,6 @@ This week I realized that I was no longer obsessing over grammar in the sentence
   - Finished 280th Migaku academy course card
   - Found [Yomu Yomu](https://yomuyomu.app/) and did some reading there
   - Watching Made in Abyss with English subs
-  - Starting work on a [Japanese learning platform](https://etoku.app)
   - Motivation is high but I'm putting time into development of the platform which takes some time away from actual language learning, so I'm saying my motivation was medium for this week.
 
 <p class="entry-meta">Motivation: medium</p>
